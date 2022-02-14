@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parent {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-x: repeat(50vh);
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: center;
+  position: relative;
+}
+
+.one {
+  background-color: red;
+}
+.two {
+  background-color: blue;
+}
+.three {
+  background-color: grey;
+}
+.four {
+  background-color: green;
+}
+//https://www.youtube.com/watch?v=GLxdqbsMKYA&t=354s
